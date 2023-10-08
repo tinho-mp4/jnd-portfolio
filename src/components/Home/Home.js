@@ -4,6 +4,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Logo from "../../assets/logo.png";
+import Wales from "../../assets/wales.png"
 
 function Home() {
   return (
@@ -13,10 +14,14 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
+              <h1 style={{ paddingBottom: 5 }} className="heading">
+                Hello{" "}
+                <span style={{ paddingLeft: '10px'}} className="wave" role="img" aria-labelledby="wave" >
+                  <img
+                    src={Wales}
+                    alt="Welsh Flag"
+                    style={{ width: '50px', height: '50px'}} 
+                  />
                 </span>
               </h1>
 
@@ -25,7 +30,7 @@ function Home() {
                 <strong className="main-name"> JUNED MIAH</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ paddingTop: 10, padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
