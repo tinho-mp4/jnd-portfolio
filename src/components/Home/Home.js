@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Logo from "../../assets/logo.png";
+import Pochita from "../../assets/Pochita.png";
 import Wales from "../../assets/wales.png"
 
 function Home() {
@@ -12,8 +12,8 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row>
-            <Col md={7} className="home-header">
+          <Row className="justify-content-center"> 
+            <Col md={7} className="home-header ">
               <h1 style={{ paddingBottom: 5 }} className="heading">
                 Hello{" "}
                 <span style={{ paddingLeft: '10px'}} className="wave" role="img" aria-labelledby="wave" >
@@ -37,7 +37,7 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src= {Logo}
+                src= {Pochita}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
