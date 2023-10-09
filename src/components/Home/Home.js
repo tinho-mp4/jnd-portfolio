@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Pochita from "../../assets/Pochita.png";
+import Pochita from "../../assets/pochita.png";
 import Wales from "../../assets/wales.png"
 
 function Home() {

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../assets/avatar.svg";
+import myImg from "../../assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -27,9 +27,9 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building new&nbsp;
               <i>
-                <b className="danube">Web Development </b> and
+                <b className="danube">Web Applications </b> and
                 also in areas related to{" "}
                 <b className="danube">
                 Data Science and Machine Learning.
@@ -38,9 +38,9 @@ function Home2() {
               <br/>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar" >
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} style={{width: "250px", height: "250px"}} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -74,7 +74,6 @@ function Home2() {
               <li className="social-icons">
                 <a
                   href="mailto:jun3dm1ah@hotmail.com"
-                  target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >

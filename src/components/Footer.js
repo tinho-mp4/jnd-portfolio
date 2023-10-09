@@ -34,7 +34,6 @@ function Footer() {
               <a
                 href="mailto:jun3dm1ah@hotmail.com"
                 style={{ color: "white" }}
-                target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiOutlineMail />
