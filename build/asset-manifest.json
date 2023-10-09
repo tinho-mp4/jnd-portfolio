@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f72da53.css",
+    "main.js": "/static/js/main.07eebc47.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/about.png": "/static/media/about.04d2f3bf6e436d5972b0.png",
+    "static/media/pochita.png": "/static/media/pochita.5774d2286bc0254d433c.png",
+    "static/media/taxi.png": "/static/media/taxi.2ea5419256db535022b6.png",
+    "static/media/avatar.png": "/static/media/avatar.5e5dd857e93f96fbb309.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.d2bc746f4f8b777df46c.jpg",
+    "static/media/forest.jpg": "/static/media/forest.7ba68927d0baa70ff5d7.jpg",
+    "static/media/cortez.png": "/static/media/cortez.fd3da68f20df688e7370.png",
+    "static/media/JunedCV.pdf": "/static/media/JunedCV.62d6e7b3b443886f5b1f.pdf",
+    "static/media/wales.png": "/static/media/wales.40ed4163fa29dda84b35.png",
+    "index.html": "/index.html",
+    "static/media/pre.svg": "/static/media/pre.d7b20ff44b486897288e.svg",
+    "main.3f72da53.css.map": "/static/css/main.3f72da53.css.map",
+    "main.07eebc47.js.map": "/static/js/main.07eebc47.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f72da53.css",
+    "static/js/main.07eebc47.js"
+  ]
+}
