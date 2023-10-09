@@ -22,7 +22,6 @@
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
-
   "scripts": {
     "build": "react-scripts build"
   },
