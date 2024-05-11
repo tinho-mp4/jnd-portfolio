@@ -9,6 +9,7 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiMysql,
 } from "react-icons/di";
 import {
   SiFirebase,
@@ -43,6 +44,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
       </Col>
     </Row>
   );
