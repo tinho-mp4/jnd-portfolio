@@ -256,7 +256,7 @@ button:focus {
 }
 
 .home-section {
-  height: 90vh;
+  height: 100vh;
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./assets/home-bg.jpg);
