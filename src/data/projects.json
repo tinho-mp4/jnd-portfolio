@@ -1,0 +1,26 @@
+{
+    "items": [
+      {
+        "title": "Jai Taxi Service",
+        "description": "Jai Taxi is both a taxi service and a showcase of my web development skills, crafted using HTML, CSS, and JavaScript.",
+        "imgPath": "/images/projects/taxi.png",
+        "isBlog": false,
+        "ghLink": "https://github.com/tinho-mp4/jai-taxi",
+        "demoLink": "https://jai-taxi.pages.dev/"
+      },
+      {
+        "title": "Cortez Hub",
+        "description": "An immersive gaming app that keeps users updated on the latest game developments and industry news, enhancing their game knowledge.",
+        "imgPath": "/images/projects/cortez.png",
+        "isBlog": false,
+        "ghLink": "https://github.com/tinho-mp4/CortezHub"
+      },
+      {
+        "title": "Forest Fire Notebook",
+        "description": "Exploring the Algerian Forest Fires Dataset: Analyzing trends to potentially predict forest fires in Algeria. A step towards developing a crucial early warning system for forest fire prevention and management in the region.",
+        "imgPath": "/images/projects/forest.jpg",
+        "isBlog": false,
+        "ghLink": "https://github.com/tinho-mp4/ForestFireNotebook"
+      }
+    ]
+  }
