@@ -1,0 +1,31 @@
+backend:
+  # Easiest on Netlify: Identity + Git Gateway (no GitHub app needed)
+  name: git-gateway
+  branch: main
+
+# Optional: enable draft -> review -> publish flow
+# publish_mode: editorial_workflow
+
+media_folder: public/images/projects
+public_folder: /images/projects
+
+collections:
+  - name: site
+    label: Site Content
+    files:
+      - file: src/data/projects.json
+        name: projects
+        label: Projects
+        format: json
+        fields:
+          - label: Projects
+            name: items
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: Title }
+              - { name: description, label: Description, widget: text }
+              - { name: imgPath, label: Image, widget: image }
+              - { name: isBlog, label: Is Blog, widget: boolean, default: false }
+              - { name: ghLink, label: GitHub Link, required: false }
+              - { name: demoLink, label: Demo Link, required: false }
